@@ -1,3 +1,4 @@
+import * as fs from 'fs';
 import * as path from 'path';
 import * as vscode from 'vscode';
 import { Binding, RunResult } from './types';
@@ -87,7 +88,6 @@ export function substituteVariables(args: unknown[], variables: Record<string, s
 
 function isDirectory(uri: vscode.Uri): boolean {
   try {
-    const fs = require('fs') as typeof import('fs');
     return fs.statSync(uri.fsPath).isDirectory();
   } catch {
     return false;
