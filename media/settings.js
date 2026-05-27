@@ -11,9 +11,8 @@ let state = vscode.getState() ?? { bindings: [], editingIndex: -1, mode: 'list' 
 
 // ── Message handling from extension host ──────────────────────────────────────
 window.addEventListener('message', (event) => {
-  // Only accept messages from the VS Code extension host.
-  // In VS Code webviews the extension host always posts from a vscode-webview: origin.
-  if (!event.origin.startsWith('vscode-webview:')) {
+  // Only accept messages from the VS Code extension host (same-origin in webview context).
+  if (event.origin !== window.location.origin) {
     return;
   }
   const { data } = event;
