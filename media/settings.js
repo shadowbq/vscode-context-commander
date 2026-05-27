@@ -10,7 +10,13 @@ const vscode = acquireVsCodeApi();
 let state = vscode.getState() ?? { bindings: [], editingIndex: -1, mode: 'list' };
 
 // ── Message handling from extension host ──────────────────────────────────────
-window.addEventListener('message', ({ data }) => {
+window.addEventListener('message', (event) => {
+  // Only accept messages from the VS Code extension host.
+  // In VS Code webviews the extension host always posts from a vscode-webview: origin.
+  if (!event.origin.startsWith('vscode-webview:')) {
+    return;
+  }
+  const { data } = event;
   if (data.type === 'update') {
     state.bindings = data.bindings ?? [];
     state.mode = 'list';
