@@ -1,0 +1,123 @@
+<svg width="100%" viewBox="0 0 680 520" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Context Commander VS Code Extension Icon</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">A Wing Commander inspired badge icon for the Context Commander VS Code extension, featuring a fighter pilot helmet visor, command chevron, and retro space insignia styling.</desc>
+
+  <defs>
+    
+  <mask id="imagine-text-gaps-m7qg52" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="680" height="520" fill="white"/><rect x="295.71875" y="111" width="88.5625" height="16" fill="black" rx="2"/><rect x="274" y="204" width="24.8017578125" height="14" fill="black" rx="2"/><rect x="380" y="204" width="24.203125" height="14" fill="black" rx="2"/><rect x="270" y="268" width="24.203125" height="14" fill="black" rx="2"/><rect x="381" y="268" width="24.203125" height="14" fill="black" rx="2"/><rect x="279.890625" y="404" width="120.21875" height="15" fill="black" rx="2"/><rect x="284.53125" y="461" width="110.9375" height="13" fill="black" rx="2"/></mask></defs>
+
+  <!-- === CENTERED BADGE SHIELD === -->
+  <!-- Outer shield shape: heraldic / mission patch style -->
+  <path d="M340,60 L500,110 L520,320 L340,460 L160,320 L180,110 Z" style="fill:rgb(26, 32, 64);stroke:rgb(200, 168, 50);color:rgb(255, 255, 255);stroke-width:3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Shield inner fill -->
+  <path d="M340,75 L488,120 L506,312 L340,442 L174,312 L192,120 Z" style="fill:rgb(13, 21, 48);stroke:rgb(200, 168, 50);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Top banner ribbon -->
+  <path d="M220,108 L460,108 L450,130 L230,130 Z" style="fill:rgb(200, 168, 50);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Top banner text -->
+  <text x="340" y="123" text-anchor="middle" style="font-size:11px; fill:#0a0e1a; letter-spacing:4px;;fill:rgb(10, 14, 26);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Arial Narrow&quot;, Arial, sans-serif;font-size:11px;font-weight:700;text-anchor:middle;dominant-baseline:auto">CONTEXT</text>
+
+  <!-- === FIGHTER PILOT HELMET — center of shield === -->
+  <!-- Helmet dome -->
+  <ellipse cx="340" cy="230" rx="88" ry="100" style="fill:rgb(30, 58, 90);stroke:rgb(74, 154, 204);color:rgb(255, 255, 255);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Helmet highlight left ridge -->
+  <path d="M268,200 Q260,230 270,270" fill="none" stroke="#6ab4d4" stroke-width="2.5" stroke-linecap="round" style="fill:none;stroke:rgb(106, 180, 212);color:rgb(255, 255, 255);stroke-width:2.5px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Helmet highlight right ridge -->
+  <path d="M412,200 Q420,230 410,270" fill="none" stroke="#6ab4d4" stroke-width="2.5" stroke-linecap="round" style="fill:none;stroke:rgb(106, 180, 212);color:rgb(255, 255, 255);stroke-width:2.5px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Chrome top of helmet -->
+  <ellipse cx="340" cy="145" rx="44" ry="18" opacity="0.6" style="fill:rgb(200, 216, 232);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Visor cutout — trapezoidal -->
+  <path d="M280,195 L400,195 L415,285 L265,285 Z" style="fill:rgb(10, 32, 64);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Visor tint overlay -->
+  <path d="M282,197 L398,197 L412,282 L268,282 Z" fill="#081828" opacity="0.7" style="fill:rgb(8, 24, 40);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- HUD scanlines inside visor -->
+  <line x1="273" y1="210" x2="405" y2="210" mask="url(#imagine-text-gaps-m7qg52)" style="fill:none;stroke:rgb(32, 212, 255);color:rgb(255, 255, 255);stroke-width:0.8px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="270" y1="222" x2="408" y2="222" style="fill:none;stroke:rgb(32, 212, 255);color:rgb(255, 255, 255);stroke-width:0.4px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="268" y1="234" x2="410" y2="234" style="fill:none;stroke:rgb(32, 212, 255);color:rgb(255, 255, 255);stroke-width:0.8px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="267" y1="246" x2="411" y2="246" style="fill:none;stroke:rgb(32, 212, 255);color:rgb(255, 255, 255);stroke-width:0.4px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="267" y1="258" x2="411" y2="258" style="fill:none;stroke:rgb(32, 212, 255);color:rgb(255, 255, 255);stroke-width:0.8px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="268" y1="270" x2="410" y2="270" mask="url(#imagine-text-gaps-m7qg52)" style="fill:none;stroke:rgb(32, 212, 255);color:rgb(255, 255, 255);stroke-width:0.4px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- HUD targeting reticle -->
+  <circle cx="340" cy="240" r="18" fill="none" stroke="#20d4ff" stroke-width="1" opacity="0.8" style="fill:none;stroke:rgb(32, 212, 255);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.8;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="322" y1="240" x2="312" y2="240" stroke="#20d4ff" stroke-width="1" opacity="0.8" style="fill:rgb(0, 0, 0);stroke:rgb(32, 212, 255);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.8;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="358" y1="240" x2="368" y2="240" stroke="#20d4ff" stroke-width="1" opacity="0.8" style="fill:rgb(0, 0, 0);stroke:rgb(32, 212, 255);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.8;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="340" y1="222" x2="340" y2="212" stroke="#20d4ff" stroke-width="1" opacity="0.8" style="fill:rgb(0, 0, 0);stroke:rgb(32, 212, 255);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.8;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="340" y1="258" x2="340" y2="268" stroke="#20d4ff" stroke-width="1" opacity="0.8" style="fill:rgb(0, 0, 0);stroke:rgb(32, 212, 255);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.8;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Inner reticle dot -->
+  <circle cx="340" cy="240" r="3" fill="#20d4ff" opacity="0.9" style="fill:rgb(32, 212, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.9;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- HUD corner brackets top-left -->
+  <path d="M276,200 L276,207 M276,200 L283,200" stroke="#20d4ff" stroke-width="1" fill="none" opacity="0.7" style="fill:none;stroke:rgb(32, 212, 255);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- HUD corner brackets top-right -->
+  <path d="M404,200 L404,207 M404,200 L397,200" stroke="#20d4ff" stroke-width="1" fill="none" opacity="0.7" style="fill:none;stroke:rgb(32, 212, 255);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- HUD corner brackets bottom-left -->
+  <path d="M270,278 L270,271 M270,278 L277,278" stroke="#20d4ff" stroke-width="1" fill="none" opacity="0.7" style="fill:none;stroke:rgb(32, 212, 255);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- HUD corner brackets bottom-right -->
+  <path d="M410,278 L410,271 M410,278 L403,278" stroke="#20d4ff" stroke-width="1" fill="none" opacity="0.7" style="fill:none;stroke:rgb(32, 212, 255);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Small HUD readouts -->
+  <text x="278" y="213" opacity="0.7" style="fill:rgb(32, 212, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Courier New&quot;, monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto">ALT</text>
+  <text x="384" y="213" opacity="0.7" style="fill:rgb(32, 212, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Courier New&quot;, monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto">CMD</text>
+  <text x="274" y="277" opacity="0.6" style="fill:rgb(32, 212, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Courier New&quot;, monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto">RCL</text>
+  <text x="385" y="277" opacity="0.6" style="fill:rgb(32, 212, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Courier New&quot;, monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto">EXE</text>
+
+  <!-- Visor frame border gold -->
+  <path d="M278,193 L402,193 L417,287 L263,287 Z" fill="none" stroke="#c8a832" stroke-width="2" mask="url(#imagine-text-gaps-m7qg52)" style="fill:none;stroke:rgb(200, 168, 50);color:rgb(255, 255, 255);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Helmet chin guard -->
+  <path d="M265,285 Q270,320 340,330 Q410,320 415,285 L405,285 Q402,312 340,320 Q278,312 275,285 Z" fill="#1a2a3a" stroke="#4a6a8a" stroke-width="1" style="fill:rgb(26, 42, 58);stroke:rgb(74, 106, 138);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Oxygen mask connector line left -->
+  <path d="M270,300 Q260,310 255,325" fill="none" stroke="#6a8aaa" stroke-width="2" style="fill:none;stroke:rgb(106, 138, 170);color:rgb(255, 255, 255);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Oxygen mask connector line right -->
+  <path d="M410,300 Q420,310 425,325" fill="none" stroke="#6a8aaa" stroke-width="2" style="fill:none;stroke:rgb(106, 138, 170);color:rgb(255, 255, 255);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- === COMMAND CHEVRON below helmet === -->
+  <!-- Triple chevron stack, gold, pointing up -->
+  <path d="M290,360 L340,338 L390,360 L390,370 L340,348 L290,370 Z" style="fill:rgb(200, 168, 50);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <path d="M298,375 L340,355 L382,375 L382,385 L340,365 L298,385 Z" style="fill:rgb(200, 168, 50);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <path d="M306,390 L340,372 L374,390 L374,398 L340,380 L306,398 Z" style="fill:rgb(200, 168, 50);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- === STARS flanking chevron === -->
+  <!-- Left star -->
+  <polygon points="235,365 239,355 243,365 253,365 245,371 248,381 239,375 230,381 233,371 225,365" style="fill:rgb(240, 208, 96);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Right star -->
+  <polygon points="437,365 441,355 445,365 455,365 447,371 450,381 441,375 432,381 435,371 427,365" style="fill:rgb(240, 208, 96);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- === WINGS flanking shield === -->
+  <!-- Left wing -->
+  <path d="M180,220 L120,190 L90,210 L130,240 L100,255 L140,265 L115,280 L165,280 L180,300 L195,220 Z" style="fill:rgb(26, 48, 96);stroke:rgb(200, 168, 50);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Left wing stripes -->
+  <path d="M150,200 L135,195 L145,210 L160,212 Z" style="fill:rgb(200, 168, 50);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <path d="M125,218 L108,215 L120,228 L138,228 Z" style="fill:rgb(200, 168, 50);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Right wing -->
+  <path d="M500,220 L560,190 L590,210 L550,240 L580,255 L540,265 L565,280 L515,280 L500,300 L485,220 Z" style="fill:rgb(26, 48, 96);stroke:rgb(200, 168, 50);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Right wing stripes -->
+  <path d="M530,200 L545,195 L535,210 L520,212 Z" style="fill:rgb(200, 168, 50);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <path d="M555,218 L572,215 L560,228 L542,228 Z" style="fill:rgb(200, 168, 50);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- === RIVETS on shield corners === -->
+  <circle cx="222" cy="115" r="4" style="fill:rgb(200, 168, 50);stroke:rgb(122, 90, 16);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="458" cy="115" r="4" style="fill:rgb(200, 168, 50);stroke:rgb(122, 90, 16);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="194" cy="290" r="4" style="fill:rgb(200, 168, 50);stroke:rgb(122, 90, 16);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="486" cy="290" r="4" style="fill:rgb(200, 168, 50);stroke:rgb(122, 90, 16);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="340" cy="452" r="4" style="fill:rgb(200, 168, 50);stroke:rgb(122, 90, 16);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- === RED ACCENT STRIPE top of helmet === -->
+  <path d="M305,148 Q340,140 375,148 L372,155 Q340,148 308,155 Z" style="fill:rgb(204, 34, 34);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- === BOTTOM BANNER === -->
+  <path d="M220,400 L460,400 L450,422 L230,422 Z" style="fill:rgb(200, 168, 50);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="340" y="415" text-anchor="middle" style="font-size:10px; fill:#0a0e1a; letter-spacing:5px;;fill:rgb(10, 14, 26);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Arial Narrow&quot;, Arial, sans-serif;font-size:10px;font-weight:700;text-anchor:middle;dominant-baseline:auto">COMMANDER</text>
+
+  <!-- Publisher slug below shield -->
+  <text x="340" y="470" text-anchor="middle" style="fill:rgb(154, 176, 200);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Arial Narrow&quot;, Arial, sans-serif;font-size:8px;font-weight:400;text-anchor:middle;dominant-baseline:auto">shadowbq · vscode</text>
+
+  <!-- Outer ring of dots decorative -->
+  <circle cx="340" cy="262" r="150" fill="none" stroke="#c8a832" stroke-width="0.5" stroke-dasharray="3 8" opacity="0.4" style="fill:none;stroke:rgb(200, 168, 50);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-dasharray:3px, 8px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+</svg>

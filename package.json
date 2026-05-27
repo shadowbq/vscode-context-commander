@@ -1,0 +1,334 @@
+{
+  "name": "context-commander",
+  "displayName": "Context Commander",
+  "description": "Bind any command palette command to the Explorer right-click menu — for any file type.",
+  "version": "0.1.0",
+  "publisher": "shadowbq",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shadowbq/vscode-context-commander"
+  },
+  "bugs": {
+    "url": "https://github.com/shadowbq/vscode-context-commander/issues"
+  },
+  "homepage": "https://github.com/shadowbq/vscode-context-commander#readme",
+  "license": "MIT",
+  "icon": "media/icon.png",
+  "author": {
+    "name": "shadowbq"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "context menu",
+    "right click",
+    "command palette",
+    "binding",
+    "explorer",
+    "multi-command",
+    "command runner"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "contextCommander.showBindings",
+        "title": "Context Commander...",
+        "icon": "$(list-selection)"
+      },
+      {
+        "command": "contextCommander.openSettings",
+        "title": "Context Commander: Open Settings",
+        "icon": "$(settings-gear)"
+      },
+      {
+        "command": "contextCommander.runSlot.0",
+        "title": "Binding 1",
+        "category": "Context Commander"
+      },
+      {
+        "command": "contextCommander.runSlot.1",
+        "title": "Binding 2",
+        "category": "Context Commander"
+      },
+      {
+        "command": "contextCommander.runSlot.2",
+        "title": "Binding 3",
+        "category": "Context Commander"
+      },
+      {
+        "command": "contextCommander.runSlot.3",
+        "title": "Binding 4",
+        "category": "Context Commander"
+      },
+      {
+        "command": "contextCommander.runSlot.4",
+        "title": "Binding 5",
+        "category": "Context Commander"
+      },
+      {
+        "command": "contextCommander.runSlot.5",
+        "title": "Binding 6",
+        "category": "Context Commander"
+      },
+      {
+        "command": "contextCommander.runSlot.6",
+        "title": "Binding 7",
+        "category": "Context Commander"
+      },
+      {
+        "command": "contextCommander.runSlot.7",
+        "title": "Binding 8",
+        "category": "Context Commander"
+      },
+      {
+        "command": "contextCommander.runSlot.8",
+        "title": "Binding 9",
+        "category": "Context Commander"
+      },
+      {
+        "command": "contextCommander.runSlot.9",
+        "title": "Binding 10",
+        "category": "Context Commander"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "contextCommander.showBindings",
+          "when": "!contextCommander.slotMode && contextCommander.hasBindings",
+          "group": "navigation@99"
+        },
+        {
+          "command": "contextCommander.runSlot.0",
+          "when": "contextCommander.slotMode && contextCommander.slot.0.visible",
+          "group": "contextCommander@0"
+        },
+        {
+          "command": "contextCommander.runSlot.1",
+          "when": "contextCommander.slotMode && contextCommander.slot.1.visible",
+          "group": "contextCommander@1"
+        },
+        {
+          "command": "contextCommander.runSlot.2",
+          "when": "contextCommander.slotMode && contextCommander.slot.2.visible",
+          "group": "contextCommander@2"
+        },
+        {
+          "command": "contextCommander.runSlot.3",
+          "when": "contextCommander.slotMode && contextCommander.slot.3.visible",
+          "group": "contextCommander@3"
+        },
+        {
+          "command": "contextCommander.runSlot.4",
+          "when": "contextCommander.slotMode && contextCommander.slot.4.visible",
+          "group": "contextCommander@4"
+        },
+        {
+          "command": "contextCommander.runSlot.5",
+          "when": "contextCommander.slotMode && contextCommander.slot.5.visible",
+          "group": "contextCommander@5"
+        },
+        {
+          "command": "contextCommander.runSlot.6",
+          "when": "contextCommander.slotMode && contextCommander.slot.6.visible",
+          "group": "contextCommander@6"
+        },
+        {
+          "command": "contextCommander.runSlot.7",
+          "when": "contextCommander.slotMode && contextCommander.slot.7.visible",
+          "group": "contextCommander@7"
+        },
+        {
+          "command": "contextCommander.runSlot.8",
+          "when": "contextCommander.slotMode && contextCommander.slot.8.visible",
+          "group": "contextCommander@8"
+        },
+        {
+          "command": "contextCommander.runSlot.9",
+          "when": "contextCommander.slotMode && contextCommander.slot.9.visible",
+          "group": "contextCommander@9"
+        }
+      ],
+      "commandPalette": [
+        {
+          "command": "contextCommander.showBindings",
+          "when": "false"
+        },
+        {
+          "command": "contextCommander.runSlot.0",
+          "when": "false"
+        },
+        {
+          "command": "contextCommander.runSlot.1",
+          "when": "false"
+        },
+        {
+          "command": "contextCommander.runSlot.2",
+          "when": "false"
+        },
+        {
+          "command": "contextCommander.runSlot.3",
+          "when": "false"
+        },
+        {
+          "command": "contextCommander.runSlot.4",
+          "when": "false"
+        },
+        {
+          "command": "contextCommander.runSlot.5",
+          "when": "false"
+        },
+        {
+          "command": "contextCommander.runSlot.6",
+          "when": "false"
+        },
+        {
+          "command": "contextCommander.runSlot.7",
+          "when": "false"
+        },
+        {
+          "command": "contextCommander.runSlot.8",
+          "when": "false"
+        },
+        {
+          "command": "contextCommander.runSlot.9",
+          "when": "false"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Context Commander",
+      "properties": {
+        "contextCommander.bindings": {
+          "type": "array",
+          "description": "Array of Explorer context menu binding definitions.",
+          "default": [],
+          "markdownDescription": "Array of Explorer context menu binding definitions. Each binding maps file filters to VS Code commands.\n\nSee the [README](https://github.com/shadowbq/vscode-context-commander#readme) for full documentation and examples.",
+          "items": {
+            "type": "object",
+            "required": [
+              "label",
+              "commands"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "description": "Display name shown in the Context Commander picker or slot menu."
+              },
+              "commands": {
+                "type": "array",
+                "description": "Ordered sequence of VS Code commands to execute.",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "command"
+                  ],
+                  "additionalProperties": false,
+                  "properties": {
+                    "command": {
+                      "type": "string",
+                      "description": "VS Code command ID (e.g. \"editor.action.formatDocument\")."
+                    },
+                    "args": {
+                      "type": "array",
+                      "description": "Arguments passed to the command. Strings support tokens: ${file}, ${fileBasename}, ${fileBasenameNoExtension}, ${fileDirname}, ${fileExtname}, ${workspaceFolder}, ${relativeFile}.",
+                      "items": {}
+                    }
+                  }
+                }
+              },
+              "when": {
+                "type": "object",
+                "description": "Optional filtering rules. If absent or empty, the binding appears for all files.",
+                "additionalProperties": false,
+                "properties": {
+                  "fileExtensions": {
+                    "type": "array",
+                    "description": "Show binding only for files with these extensions (e.g. [\".md\", \".markdown\"]). Leading dot is optional.",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "languageIds": {
+                    "type": "array",
+                    "description": "Show binding only for files with these VS Code language IDs (e.g. [\"markdown\", \"python\"]).",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "glob": {
+                    "type": "string",
+                    "description": "Show binding only when the workspace-relative file path matches this minimatch glob (e.g. \"src/**/*.ts\")."
+                  },
+                  "isDirectory": {
+                    "type": "boolean",
+                    "description": "If true, show binding only when right-clicking a directory. If false, only on files."
+                  }
+                }
+              },
+              "group": {
+                "type": "string",
+                "description": "Explorer context menu group used in slot mode. Default: \"navigation\".",
+                "default": "navigation"
+              },
+              "enabled": {
+                "type": "boolean",
+                "description": "Set to false to disable this binding without deleting it.",
+                "default": true
+              }
+            }
+          }
+        },
+        "contextCommander.slotMode": {
+          "type": "boolean",
+          "description": "Use pre-declared static menu slots (up to 10 bindings) instead of the QuickPick picker. Individual binding labels are not shown in slot mode — use the picker mode for labeled entries. Reload window after changing this setting.",
+          "default": false
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run build",
+    "build": "npm run esbuild-base -- --minify",
+    "compile": "npm run esbuild-base -- --sourcemap",
+    "esbuild-base": "esbuild ./src/extension.ts --bundle --outfile=out/extension.js --external:vscode --format=cjs --platform=node",
+    "watch": "npm run esbuild-base -- --sourcemap --watch",
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "test:unit": "vitest run",
+    "compile:test": "tsc -p tsconfig.test.json",
+    "test:integration": "npm run compile && npm run compile:test && vscode-test",
+    "lint": "eslint src --ext ts",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "minimatch": "^10.2.5"
+  },
+  "overrides": {
+    "diff": "^8.0.3",
+    "serialize-javascript": "^7.0.5"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^25.0.0",
+    "@types/vscode": "^1.85.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2",
+    "@vscode/vsce": "^3.9.1",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.3.0",
+    "vitest": "^4.1.7"
+  }
+}

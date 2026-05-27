@@ -1,0 +1,11 @@
+.vscode/**
+.github/**
+src/**
+.eslintrc.json
+tsconfig.json
+node_modules/**
+out/**/*.js.map
+*.vsix
+media/icon-256.png
+media/context_commander_icon.svg
+vitest.config.ts
